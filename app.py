@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import numpy as np
 
-# Load the trained model
+# Load the trained modelp
 model = load_model('/workspaces/catvsdog/dogs vs cats.h5')
 
 # Function to predict the image
